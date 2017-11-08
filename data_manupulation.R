@@ -10,7 +10,7 @@ A$a
 cbind(d=0,A)#add coloum from A in frunt of A data frame
 cbind(d=2,A)#overwrite a value i first colum
 
-install.packages("tibble")
+install.packages("tibble")#package use to shift the data in data frames
 library("tibble")
 add_column(A,c=5,.before = 2)
 add_column(A,c=5,.after =   3)
