@@ -4,7 +4,7 @@
 #then remove a column and create a new one
 A<-data.frame(a=LETTERS[1:5],b=1.5,c=rnorm(5))
 A
-A$c<-NULL
+A$c<-NULLv  #delete the particular row
 A
 A$a
 cbind(d=0,A)#add coloum from A in frunt of A data frame
