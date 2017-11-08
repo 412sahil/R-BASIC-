@@ -1,0 +1,4 @@
+"var1" "var2" "var3"
+"billy" 10 "beer" TRUE
+"bob" 25 "cheese" FALSE
+"thornton" 8 "wine" FALSE
